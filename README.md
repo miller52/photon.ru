@@ -8,7 +8,7 @@
 
 :two: Mortar
 
-:three:  DB – Realm
+:three: DB – Realm
 
 :four:  Network – Retrofit 2, Moshi
 
