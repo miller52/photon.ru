@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.krymov.photon.ru.ui.screens.search.find.FindView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <AutoCompleteTextView
+            android:id="@+id/filter_text_edt"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:hint="Filter by name or describing"
+            android:layout_weight="1"
+            tools:text = "filter text"
+            />
+        <ImageView
+            android:id="@+id/filter_back_apply_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_custom_back_arrow_black_24dp"
+            />
+        <ImageView
+            android:id="@+id/filter_clear_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_custom_cancel_black_24dp"
+            />
+
+    </LinearLayout>
+</o.krymov.photon.ru.ui.screens.search.find.FindView>

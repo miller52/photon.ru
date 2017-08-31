@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" android:enabled="true">
+        <item
+            android:id="@+id/bottomBarMainScreen"
+            android:icon="@drawable/ic_custom_home_black_24dp"
+            android:title="@string/menu_home"/>
+        <item
+            android:id="@+id/bottomBarProfile"
+            android:icon="@drawable/ic_custom_profile_black_24dp"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/bottomBarUpload"
+            android:icon="@drawable/ic_custom_upload_black_24dp"
+            android:title="@string/menu_upload" />
+    </group>
+</menu>
